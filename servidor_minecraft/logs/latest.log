@@ -963,3 +963,10 @@ A newer version of DecentHolograms is available. Download it from:
 [12:19:26] [Server thread/INFO]: swafro issued server command: //setbiome bamboo_jungle
 [12:23:15] [Server thread/INFO]: swafro issued server command: /sun
 [12:23:26] [Server thread/INFO]: swafro issued server command: /day
+[12:29:30] [Server thread/INFO]: swafro issued server command: /dh create Cestino &6Cestino
+[12:29:50] [Server thread/INFO]: swafro issued server command: /dh movehere Cestino
+[12:29:57] [Server thread/INFO]: swafro issued server command: /dh center Cestino
+[12:30:14] [Server thread/INFO]: swafro issued server command: /setworldspawn
+[12:30:14] [Server thread/INFO]: [swafro: Set the world spawn point to -97, 63, -225 [0.0]]
+[12:33:58] [Server thread/INFO]: swafro issued server command: /day
+[12:36:41] [Server thread/INFO]: swafro issued server command: /sun
