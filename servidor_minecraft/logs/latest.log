@@ -249,3 +249,711 @@ A newer version of DecentHolograms is available. Download it from:
 [11:44:36] [Async Chat Thread - #4/INFO]: [Not Secure] Founder swafro» tt
 [11:44:48] [Server thread/INFO]: LPC has been reloaded.
 [11:44:50] [Async Chat Thread - #4/INFO]: [Not Secure] Founder swafro » tt
+[11:46:31] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[11:46:31] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[11:46:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:46:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:46:32] [Server thread/INFO]: [LPC] Disabling LPC v3.6.1
+[11:46:32] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.15
+[11:46:32] [Server thread/INFO]: [LPTabListV2] Disabling LPTabListV2 v1.0-SNAPSHOT
+[11:46:32] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.157
+[11:46:32] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:46:32] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:46:34] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:46:34] [Server thread/INFO]: Loaded 1290 recipes
+[11:46:35] [Server thread/INFO]: Loaded 1399 advancements
+[11:46:35] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:46:35] [Paper Async Command Builder Thread Pool - 3/ERROR]: Caught previously unhandled exception :
+[11:46:35] [Paper Async Command Builder Thread Pool - 3/ERROR]: Paper Async Command Builder Thread Pool - 3
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[11:46:35] [Server thread/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[11:46:35] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - BetterRTP (3.6.13), DecentHolograms (2.8.15), Essentials (2.21.1-dev+11-2bb4438), LPC (3.6.1), LPTabListV2 (1.0-SNAPSHOT), LuckPerms (5.4.157), ViaVersion (5.3.1), WorldEdit (7.3.11+7055-8357a12), WorldGuard (7.0.13+82fdc65)
+[11:46:37] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'WorldEdit.jar' in folder 'plugins/.paper-remapped'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.3
+	at org.bukkit.craftbukkit.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:369) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1130) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1000) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:985) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[11:46:38] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'WorldGuard.jar' in folder 'plugins/.paper-remapped'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/sk89q/minecraft/util/commands/CommandException
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1130) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1000) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:985) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.NoClassDefFoundError: com/sk89q/minecraft/util/commands/CommandException
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	... 17 more
+Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.CommandException
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	... 17 more
+[11:46:39] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.1
+[11:46:39] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.1 is now loaded. Registering protocol transformers and injecting...
+[11:46:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[11:46:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[11:46:47] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.157
+[11:46:47] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1-dev+11-2bb4438
+[11:46:47] [Server thread/INFO]: [LPTabListV2] Loading server plugin LPTabListV2 v1.0-SNAPSHOT
+[11:46:47] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
+[11:46:47] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.1
+[11:46:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:46:47] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.157
+[11:46:48] [Server thread/INFO]:         __    
+[11:46:48] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.157
+[11:46:48] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:46:48] [Server thread/INFO]: 
+[11:46:48] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:46:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:46:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:46:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:46:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2479ms)
+[11:46:50] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.1
+[11:46:50] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[11:46:50] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1-dev+11-2bb4438
+[11:46:52] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[11:46:53] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:46:54] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[11:46:54] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[11:46:54] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[11:46:54] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:46:54] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:46:55] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[11:46:55] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[11:46:55] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[11:46:55] [Server thread/INFO]: [Essentials] Done converting random teleport config.
+[11:46:55] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[11:46:55] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[11:46:55] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[11:46:55] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[11:46:55] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[11:46:55] [Server thread/INFO]: [Essentials] Using locale en
+[11:46:56] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:46:57] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:46:57] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[11:46:57] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[11:46:57] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[11:46:57] [Server thread/INFO]: [LPTabListV2] Enabling LPTabListV2 v1.0-SNAPSHOT
+[11:46:57] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[11:46:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21! Trying to find NMS support
+[11:46:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[11:46:58] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[11:46:58] [Server thread/INFO]: [LPC] Enabling LPC v3.6.1
+[11:46:59] [Server thread/INFO]: CONSOLE: Reload complete.
+[11:46:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27879ms or 557 ticks behind
+[11:46:59] [Server thread/INFO]: Timings Reset
+[11:47:00] [Craft Scheduler Thread - 41 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[11:47:00] [Craft Scheduler Thread - 41 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:47:00] [Craft Scheduler Thread - 44 - DecentHolograms/INFO]: 
+A newer version of DecentHolograms is available. Download it from: 
+- https://www.spigotmc.org/resources/96927/
+- https://modrinth.com/plugin/decentholograms
+[11:47:22] [Server thread/INFO]: swafro issued server command: /pl
+[11:47:30] [Server thread/INFO]: swafro issued server command: /reload confirm
+[11:47:30] [Server thread/INFO]: swafro: Please note that this command is not supported and may cause issues when using some plugins.
+[11:47:30] [Server thread/INFO]: swafro: If you encounter any issues please use the /stop command to restart your server.
+[11:47:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:47:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:47:30] [Server thread/INFO]: [LPC] Disabling LPC v3.6.1
+[11:47:30] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.15
+[11:47:30] [Server thread/INFO]: [LPTabListV2] Disabling LPTabListV2 v1.0-SNAPSHOT
+[11:47:30] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1-dev+11-2bb4438
+[11:47:30] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[11:47:30] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.157
+[11:47:30] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:47:30] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:47:30] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:47:30] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.1
+[11:47:30] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[11:47:30] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[11:47:30] [Server thread/INFO]: Loaded 1290 recipes
+[11:47:31] [Server thread/INFO]: Loaded 1399 advancements
+[11:47:31] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:47:32] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer (1).jar'...
+[11:47:33] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer (1).jar' in 1888ms.
+[11:47:33] [Server thread/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[11:47:33] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - BetterRTP (3.6.13), DecentHolograms (2.8.15), Essentials (2.21.1-dev+11-2bb4438), LPC (3.6.1), LPTabListV2 (1.0-SNAPSHOT), LuckPerms (5.4.157), SkinsRestorer (15.6.1), ViaVersion (5.3.1), WorldEdit (7.3.11+7055-8357a12), WorldGuard (7.0.13+82fdc65)
+[11:47:35] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'WorldEdit.jar' in folder 'plugins/.paper-remapped'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.3
+	at org.bukkit.craftbukkit.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:369) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1130) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[11:47:35] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'WorldGuard.jar' in folder 'plugins/.paper-remapped'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: com/sk89q/minecraft/util/commands/CommandException
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1130) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.NoClassDefFoundError: com/sk89q/minecraft/util/commands/CommandException
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	... 35 more
+Caused by: java.lang.ClassNotFoundException: com.sk89q.minecraft.util.commands.CommandException
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:78) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	... 35 more
+[11:47:36] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.1
+[11:47:36] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.1 is now loaded. Registering protocol transformers and injecting...
+[11:47:36] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[11:47:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[11:47:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[11:47:40] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.157
+[11:47:41] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1-dev+11-2bb4438
+[11:47:41] [Server thread/INFO]: [LPTabListV2] Loading server plugin LPTabListV2 v1.0-SNAPSHOT
+[11:47:41] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[11:47:41] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
+[11:47:41] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.1
+[11:47:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:47:41] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.157
+[11:47:41] [Server thread/INFO]:         __    
+[11:47:41] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.157
+[11:47:41] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:47:41] [Server thread/INFO]: 
+[11:47:41] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:47:41] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:47:42] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:47:42] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:47:42] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1654ms)
+[11:47:42] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[11:47:44] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[11:47:45] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[11:47:46] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[11:47:46] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.1
+[11:47:46] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.1
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 8687003
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[11:47:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[11:47:46] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1-dev+11-2bb4438
+[11:47:47] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:47:47] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:47:47] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:47:47] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[11:47:47] [Server thread/INFO]: [Essentials] Found 1 files to convert...
+[11:47:47] [Server thread/INFO]: [Essentials] Converted 0/1
+[11:47:47] [Server thread/INFO]: [Essentials] Ban format update complete.
+[11:47:47] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[11:47:47] [Server thread/INFO]: [Essentials] Done converting ignore list.
+[11:47:47] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[11:47:47] [Server thread/INFO]: [Essentials] Done converting legacy userdata keys to Configurate.
+[11:47:47] [Server thread/INFO]: [Essentials] Done converting mail list.
+[11:47:47] [Server thread/INFO]: [Essentials] #===========================================================================#
+[11:47:47] [Server thread/INFO]: [Essentials]  EssentialsX will now purge any NPC accounts which were incorrectly created.
+[11:47:47] [Server thread/INFO]: [Essentials]  Only NPC accounts with the default starting balance will be deleted. If
+[11:47:47] [Server thread/INFO]: [Essentials]  they turn out to be valid NPC accounts, they will be re-created as needed.
+[11:47:47] [Server thread/INFO]: [Essentials]  Any files deleted here will be backed up to the 
+[11:47:47] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup" folder. If you notice any files
+[11:47:47] [Server thread/INFO]: [Essentials]  have been purged incorrectly, you should restore it from the backup and
+[11:47:47] [Server thread/INFO]: [Essentials]  report it to us on GitHub:
+[11:47:47] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[11:47:47] [Server thread/INFO]: [Essentials] 
+[11:47:47] [Server thread/INFO]: [Essentials]  NOTE: This is a one-time process and will take several minutes if you have
+[11:47:47] [Server thread/INFO]: [Essentials]  a lot of userdata files! If you interrupt this process, EssentialsX will
+[11:47:47] [Server thread/INFO]: [Essentials]  skip the process until you rename or remove the backup folder.
+[11:47:47] [Server thread/INFO]: [Essentials] #===========================================================================#
+[11:47:47] [Server thread/INFO]: [Essentials] Found ~1 files under "plugins/Essentials/userdata"...
+[11:47:47] [Server thread/INFO]: [Essentials] #===========================================================================#
+[11:47:47] [Server thread/INFO]: [Essentials]  EssentialsX has finished purging NPC accounts.
+[11:47:47] [Server thread/INFO]: [Essentials] 
+[11:47:47] [Server thread/INFO]: [Essentials]  Deleted accounts: 0
+[11:47:47] [Server thread/INFO]: [Essentials]  Total accounts processed: 1
+[11:47:47] [Server thread/INFO]: [Essentials] 
+[11:47:47] [Server thread/INFO]: [Essentials]  Purged accounts have been backed up to
+[11:47:47] [Server thread/INFO]: [Essentials]  "plugins/Essentials/userdata-npc-backup", and can be restored from there
+[11:47:47] [Server thread/INFO]: [Essentials]  if needed. Please report any files which have been incorrectly deleted
+[11:47:47] [Server thread/INFO]: [Essentials]  to us on GitHub:
+[11:47:47] [Server thread/INFO]: [Essentials]  https://github.com/EssentialsX/Essentials/issues/new/choose
+[11:47:47] [Server thread/INFO]: [Essentials] #===========================================================================#
+[11:47:47] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[11:47:47] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[11:47:47] [Server thread/INFO]: [Essentials] Using locale en
+[11:47:48] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:47:48] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:47:48] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[11:47:48] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[11:47:48] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[11:47:48] [Server thread/INFO]: [LPTabListV2] Enabling LPTabListV2 v1.0-SNAPSHOT
+[11:47:48] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[11:47:49] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21! Trying to find NMS support
+[11:47:49] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[11:47:49] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[11:47:49] [Server thread/INFO]: [LPC] Enabling LPC v3.6.1
+[11:47:49] [Server thread/INFO]: swafro: Reload complete.
+[11:47:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19561ms or 391 ticks behind
+[11:47:49] [Server thread/INFO]: Timings Reset
+[11:47:49] [Craft Scheduler Thread - 49 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[11:47:49] [Craft Scheduler Thread - 49 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:47:49] [Craft Scheduler Thread - 52 - DecentHolograms/INFO]: 
+A newer version of DecentHolograms is available. Download it from: 
+- https://www.spigotmc.org/resources/96927/
+- https://modrinth.com/plugin/decentholograms
+[11:48:09] [Server thread/INFO]: swafro issued server command: /skin
+[11:48:39] [Server thread/INFO]: swafro issued server command: /skin https://imgur.com/WrW8hcA
+[11:50:17] [Server thread/INFO]: swafro issued server command: /reload confirm
+[11:50:17] [Server thread/INFO]: swafro: Please note that this command is not supported and may cause issues when using some plugins.
+[11:50:17] [Server thread/INFO]: swafro: If you encounter any issues please use the /stop command to restart your server.
+[11:50:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:50:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:50:17] [Server thread/INFO]: [LPC] Disabling LPC v3.6.1
+[11:50:17] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.15
+[11:50:17] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
+[11:50:17] [Server thread/INFO]: [LPTabListV2] Disabling LPTabListV2 v1.0-SNAPSHOT
+[11:50:17] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1-dev+11-2bb4438
+[11:50:17] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[11:50:17] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.157
+[11:50:17] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:50:17] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:50:17] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:50:17] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.1
+[11:50:17] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[11:50:17] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[11:50:18] [Server thread/INFO]: Loaded 1290 recipes
+[11:50:18] [Server thread/INFO]: Loaded 1399 advancements
+[11:50:18] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:50:18] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-bukkit-7.3.9.jar'...
+[11:50:19] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-bukkit-7.3.9.jar' in 1288ms.
+[11:50:20] [Server thread/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[11:50:20] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (9):
+ - BetterRTP (3.6.13), DecentHolograms (2.8.15), Essentials (2.21.1-dev+11-2bb4438), LPC (3.6.1), LPTabListV2 (1.0-SNAPSHOT), LuckPerms (5.4.157), SkinsRestorer (15.6.1), ViaVersion (5.3.1), WorldEdit (7.3.9+6959-7adf70b)
+[11:50:21] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.1
+[11:50:21] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.1 is now loaded. Registering protocol transformers and injecting...
+[11:50:21] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[11:50:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[11:50:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[11:50:24] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.157
+[11:50:24] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1-dev+11-2bb4438
+[11:50:24] [Server thread/INFO]: [LPTabListV2] Loading server plugin LPTabListV2 v1.0-SNAPSHOT
+[11:50:24] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[11:50:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@44db36a4]
+[11:50:26] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[11:50:26] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[11:50:26] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
+[11:50:26] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.1
+[11:50:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:50:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.157
+[11:50:26] [Server thread/INFO]:         __    
+[11:50:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.157
+[11:50:26] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:50:26] [Server thread/INFO]: 
+[11:50:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:50:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:50:26] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:50:27] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:50:27] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 856ms)
+[11:50:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[11:50:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:50:27] [Server thread/INFO]: WEPIF: Updated config file
+[11:50:27] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:50:27] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[11:50:28] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[11:50:30] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[11:50:31] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[11:50:31] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[11:50:32] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[11:50:33] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[11:50:33] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.1
+[11:50:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |------------------|
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     +==================+
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Version: 15.6.1
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     Commit: 8687003
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer]     This is the latest version!
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[11:50:33] [Folia Async Scheduler Thread #3/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[11:50:33] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1-dev+11-2bb4438
+[11:50:34] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:50:34] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:50:34] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:50:34] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[11:50:34] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[11:50:34] [Server thread/INFO]: [Essentials] Using locale en
+[11:50:34] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:50:34] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:50:34] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[11:50:34] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[11:50:34] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[11:50:34] [Server thread/INFO]: [LPTabListV2] Enabling LPTabListV2 v1.0-SNAPSHOT
+[11:50:35] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[11:50:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21! Trying to find NMS support
+[11:50:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[11:50:35] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[11:50:35] [Server thread/INFO]: [LPC] Enabling LPC v3.6.1
+[11:50:36] [Server thread/INFO]: swafro: Reload complete.
+[11:50:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18320ms or 366 ticks behind
+[11:50:36] [Server thread/INFO]: Timings Reset
+[11:50:36] [Craft Scheduler Thread - 71 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[11:50:36] [Craft Scheduler Thread - 69 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:50:36] [Craft Scheduler Thread - 74 - DecentHolograms/INFO]: 
+A newer version of DecentHolograms is available. Download it from: 
+- https://www.spigotmc.org/resources/96927/
+- https://modrinth.com/plugin/decentholograms
+[11:50:36] [Server thread/WARN]: swafro moved too quickly! -5.6347963826722065,0.0,-8.337557671077747
+[11:51:17] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
+[11:51:17] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
+[11:51:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:51:17] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:51:17] [Server thread/INFO]: [LPC] Disabling LPC v3.6.1
+[11:51:17] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.15
+[11:51:17] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.1
+[11:51:17] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[11:51:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:51:17] [Server thread/INFO]: [LPTabListV2] Disabling LPTabListV2 v1.0-SNAPSHOT
+[11:51:17] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.1-dev+11-2bb4438
+[11:51:17] [Server thread/ERROR]: [Essentials] There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
+[11:51:17] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.157
+[11:51:17] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:51:17] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:51:17] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:51:17] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.1
+[11:51:17] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[11:51:17] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[11:51:17] [Server thread/INFO]: Loaded 1290 recipes
+[11:51:17] [Server thread/INFO]: Loaded 1399 advancements
+[11:51:17] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:51:18] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldguard-bukkit-7.0.12-dist.jar'...
+[11:51:18] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldguard-bukkit-7.0.12-dist.jar' in 423ms.
+[11:51:18] [Server thread/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[11:51:18] [Server thread/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - FancyNpcs (2.4.4)
+[11:51:18] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - BetterRTP (3.6.13), DecentHolograms (2.8.15), Essentials (2.21.1-dev+11-2bb4438), LPC (3.6.1), LPTabListV2 (1.0-SNAPSHOT), LuckPerms (5.4.157), SkinsRestorer (15.6.1), ViaVersion (5.3.1), WorldEdit (7.3.9+6959-7adf70b), WorldGuard (7.0.12+829a4a4)
+[11:51:18] [Server thread/WARN]: [PluginInitializerManager] ======== WARNING ========
+[11:51:18] [Server thread/WARN]: [PluginInitializerManager] You are reloading while having Paper plugins installed on your server.
+[11:51:18] [Server thread/WARN]: [PluginInitializerManager] Paper plugins do NOT support being reloaded. This will cause some unexpected issues.
+[11:51:18] [Server thread/WARN]: [PluginInitializerManager] =========================
+[11:51:19] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.1
+[11:51:19] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.1 is now loaded. Registering protocol transformers and injecting...
+[11:51:19] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[11:51:21] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[11:51:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[11:51:23] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.157
+[11:51:24] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[11:51:25] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5867302]
+[11:51:25] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1-dev+11-2bb4438
+[11:51:25] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.12+829a4a4
+[11:51:25] [Server thread/INFO]: [LPTabListV2] Loading server plugin LPTabListV2 v1.0-SNAPSHOT
+[11:51:25] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.1
+[11:51:25] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.15
+[11:51:25] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.1
+[11:51:25] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.4.4
+[11:51:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:51:25] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.157
+[11:51:25] [Server thread/INFO]:         __    
+[11:51:25] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.157
+[11:51:25] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:51:25] [Server thread/INFO]: 
+[11:51:25] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:51:25] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:51:25] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:51:25] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:51:26] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 912ms)
+[11:51:26] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[11:51:26] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:51:26] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:51:26] [Server thread/WARN]: [WorldEdit] Server reload detected. This may cause various issues with WorldEdit and dependent plugins.
+[11:51:27] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[11:51:28] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.1
+[11:51:29] [Server thread/ERROR]: [SkinsRestorer] SkinsRestorer was already loaded in this JVM. You must've used a plugin like PlugMan to reload it. This is not supported and will cause issues with the plugin! Please restart your server to reload the plugin properly.
+[11:51:29] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[11:51:29] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[11:51:30] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[11:51:31] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.1
+[11:51:31] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.6.1
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: 8687003
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[11:51:31] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[11:51:31] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1-dev+11-2bb4438
+[11:51:32] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[11:51:32] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:51:32] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:51:32] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[11:51:32] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[11:51:33] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[11:51:33] [Server thread/INFO]: [Essentials] Using locale en
+[11:51:33] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:51:33] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:51:33] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[11:51:33] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[11:51:33] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[11:51:33] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.12+829a4a4
+[11:51:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
+[11:51:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[11:51:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[11:51:33] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[11:51:33] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[11:51:33] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[11:51:33] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[11:51:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[11:51:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[11:51:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[11:51:33] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[11:51:33] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[11:51:33] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[11:51:33] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[11:51:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[11:51:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[11:51:33] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[11:51:33] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[11:51:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[11:51:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[11:51:33] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[11:51:33] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[11:51:33] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:51:34] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
+[11:51:34] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
+[11:51:34] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:51:34] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
+[11:51:34] [Server thread/INFO]: [LPTabListV2] Enabling LPTabListV2 v1.0-SNAPSHOT
+[11:51:34] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[11:51:34] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21! Trying to find NMS support
+[11:51:34] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[11:51:34] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[11:51:34] [Server thread/INFO]: [LPC] Enabling LPC v3.6.1
+[11:51:35] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.4.4
+[11:51:35] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: Plugin has been updated from version N/A to 2.4.4.
+[11:51:35] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.4.4) has been enabled.
+[11:51:36] [Server thread/INFO]: CONSOLE: Reload complete.
+[11:51:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18701ms or 374 ticks behind
+[11:51:36] [Server thread/INFO]: Timings Reset
+[11:51:36] [Craft Scheduler Thread - 80 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[11:51:36] [Craft Scheduler Thread - 74 - Essentials/INFO]: [Essentials] Fetching version information...
+[11:51:36] [Craft Scheduler Thread - 83 - DecentHolograms/INFO]: 
+A newer version of DecentHolograms is available. Download it from: 
+- https://www.spigotmc.org/resources/96927/
+- https://modrinth.com/plugin/decentholograms
+[11:51:52] [Server thread/INFO]: swafro issued server command: /day
+[11:51:56] [Server thread/INFO]: swafro issued server command: /ping
+[11:52:00] [Server thread/INFO]: swafro issued server command: /pl
+[11:52:17] [Server thread/INFO]: swafro issued server command: /npc
+[11:52:22] [Server thread/INFO]: swafro issued server command: /pl
