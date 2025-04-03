@@ -957,3 +957,9 @@ A newer version of DecentHolograms is available. Download it from:
 [11:52:00] [Server thread/INFO]: swafro issued server command: /pl
 [11:52:17] [Server thread/INFO]: swafro issued server command: /npc
 [11:52:22] [Server thread/INFO]: swafro issued server command: /pl
+[12:18:57] [Server thread/INFO]: swafro issued server command: //wand
+[12:19:11] [Server thread/INFO]: swafro issued server command: //set grass
+[12:19:14] [Server thread/INFO]: swafro issued server command: //set 2
+[12:19:26] [Server thread/INFO]: swafro issued server command: //setbiome bamboo_jungle
+[12:23:15] [Server thread/INFO]: swafro issued server command: /sun
+[12:23:26] [Server thread/INFO]: swafro issued server command: /day

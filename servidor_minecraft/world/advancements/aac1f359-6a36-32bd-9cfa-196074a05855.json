@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:forest": "2025-04-03 11:38:48 +0000",
       "minecraft:river": "2025-04-03 11:42:50 +0000",
+      "minecraft:bamboo_jungle": "2025-04-03 12:19:36 +0000",
       "minecraft:plains": "2025-04-03 11:38:37 +0000"
     },
     "done": false
@@ -171,6 +172,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-04-03 12:18:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-04-03 12:20:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2025-04-03 11:52:37 +0000"
@@ -189,9 +202,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2025-04-03 12:18:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2025-04-03 11:52:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-04-03 12:19:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-04-03 12:19:44 +0000"
     },
     "done": true
   },
