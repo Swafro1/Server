@@ -1,0 +1,5 @@
+allow-colliding: true
+allow-invisible-translucence: true
+enable-chat: true
+enable-chat-color: true
+tablist: true
