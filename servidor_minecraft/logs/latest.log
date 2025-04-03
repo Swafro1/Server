@@ -970,3 +970,5 @@ A newer version of DecentHolograms is available. Download it from:
 [12:30:14] [Server thread/INFO]: [swafro: Set the world spawn point to -97, 63, -225 [0.0]]
 [12:33:58] [Server thread/INFO]: swafro issued server command: /day
 [12:36:41] [Server thread/INFO]: swafro issued server command: /sun
+[12:46:08] [Server thread/INFO]: swafro issued server command: /day
+[12:47:18] [Server thread/INFO]: swafro issued server command: /night
